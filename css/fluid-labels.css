@@ -1,0 +1,46 @@
+/*
+.fluid-label {
+  position: relative;
+  padding: 15px;
+  border-radius: 2px;
+  display: inline-block;
+}
+
+.fluid-label input, .fluid-label textarea {
+  border: none;
+  outline: none;
+  position: relative;
+}
+*/
+.fluid-label input {
+  height: 40px;
+  background: #EEEEEE;
+ }
+
+.fluid-label label {
+  position: absolute;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: normal;
+  left: 15px !important;
+  top: -8px;
+  background: #0E6872;
+  padding: 0 5px;
+ }
+
+textarea.form-control {
+  background: #EEEEEE;
+}
+
+ ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+   color: #666666;
+ }
+ ::-moz-placeholder { /* Firefox 19+ */
+   color: #666666;
+ }
+ :-ms-input-placeholder { /* IE 10+ */
+   color: #666666;
+ }
+ :-moz-placeholder { /* Firefox 18- */
+   color: #666666;
+ }
